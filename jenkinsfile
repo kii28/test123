@@ -1,5 +1,4 @@
 pipeline {
-  agent { docker 'node:6.3' }
   stages {
     stage('Clone sources') {
         git url: 'https://github.com/kii28/test123.git'
